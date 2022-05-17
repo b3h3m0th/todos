@@ -1,0 +1,17 @@
+.todo {
+  &__titel,
+  &__beschreibung,
+  &__deadline,
+  &__verfasser-id,
+  &__erledigt {
+    margin: 0 0 12px 0;
+  }
+
+  &__erledigt {
+    width: 10%;
+  }
+
+  &__completed {
+    opacity: 0.3;
+  }
+}
